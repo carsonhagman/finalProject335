@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Joke Submission</title>
+</head>
+
+<body>
+
+    <div id="container">
+
+	<h1>Joke Submission Form</h1>
+
+	
+	<form action="/submission" method="post">
+
+		
+		<p><strong>Name: </strong><input type="text" name="namey" autofocus required><br>
+		</p>
+
+		<p>
+			
+			<label for="jokey"><strong>Joke Setup and Punchline: </strong></label><br>
+            <textarea id="jokeArea" name="jokey" rows="4" cols="50"></textarea>
+		</p>
+		
+		
+		<p>
+			<input type="reset">
+			<input type="submit">
+		</p>
+	</form>
+	<hr>
+    <a href="/">HOME</a>
+	
+    </div>
+	
+</body>
+
+<style>
+    h1 {
+        justify-self: center;
+        position: relative;
+    }
+
+    #container {
+        background-color: rgb(183, 220, 243);
+        border: 8px rgba(165, 42, 42, 0.785);
+        border-style: ridge;
+        height: 500px;
+        width: 800px;
+        justify-self: center;
+        text-align: center;
+        position: relative;
+        font-size: 25px;
+        align-content: center;
+    }
+
+
+
+</style>
+
+</html>
