@@ -189,18 +189,18 @@ app.post("/deleteSubmission", async (request, response) => {
 
 app.listen(portNumber); 
 console.log(`Web server started and running at http://localhost:${portNumber}`);
-console.log("Stop to shutdown the server: ");
+/*console.log("Stop to shutdown the server: ");
 process.stdin.setEncoding("utf8"); /* encoding */
-process.stdin.on('readable', () => {  /* on equivalent to addEventListener */
-	const dataInput = process.stdin.read();
+/*process.stdin.on('readable', () => {  /* on equivalent to addEventListener */
+	/*const dataInput = process.stdin.read();
 	if (dataInput !== null) {
 		const command = dataInput.trim();
 		if (command === "stop") {
 			console.log("Shutting down the server");
             process.exit(0);  /* exiting */
-        } else {
+        /*} else {
 			/* After invalid command, we cannot type anything else */
-			console.log(`Invalid command: ${command}`);
+			/*console.log(`Invalid command: ${command}`);
 		}
     }
-});
+});*/
