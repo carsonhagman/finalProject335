@@ -12,7 +12,9 @@
     "axios": "^1.7.9",
     "axois": "^0.0.1-security",
     "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "got": "^14.4.5",
+    "https": "^1.0.0",
     "unirest": "^0.6.0"
   }
 }
